@@ -1,0 +1,73 @@
+/* shared items */
+:root {
+    --primary-color:#fd5907;
+    
+}
+
+
+/* nav & banner section */
+header  {
+    padding: 50px 130px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+nav ul {
+    display: flex;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+nav ul li {
+    list-style: none;
+    padding: 10px;
+}
+nav ul .home-color{
+    color: var(--primary-color);
+}
+
+
+.primary-color {
+    color: var(--primary-color);
+}
+
+
+.banner {
+    background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    width: 1140px;
+    height: 500px;
+    border-radius: 16px;
+}
+.banner-contaier {
+    text-align: center;
+}
+.banner-content h2 {
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 800;
+    padding: 100px 0 20px 0;
+}
+.banner-content p {
+    color: #fff;
+    padding-bottom: 40px;
+}
+.banner-form input[type="text"] {
+    padding: 9px 0 9px 6px;
+    border: none;
+    border-radius: 5px;
+}
+.banner-form input[type="search"] {
+    padding: 9px 0 9px 6px;
+    border: none;
+    border-radius: 5px;
+    
+}
+.banner-form .search {
+    background-color: var(--primary-color);
+   
+}
